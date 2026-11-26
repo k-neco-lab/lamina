@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>KLab.Lamina.D2D</id>
+    <version>0.1.0</version>
+    <authors>K Lab</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/k-neco-lab/lamina</projectUrl>
+    <description>Zero-copy Direct2D/DirectWrite GPU rendering backend and double-buffered shared-texture panel host for KLab.Lamina.Ui.</description>
+    <copyright>Copyright (c) 2026 K Lab</copyright>
+    <tags>openvr steamvr vr overlay direct2d ui dotnet</tags>
+    <repository type="git" url="https://github.com/k-neco-lab/lamina" />
+    <dependencies>
+      <group targetFramework="net10.0-windows10.0.19041">
+        <dependency id="KLab.Lamina.Abstractions" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="KLab.Lamina.Ui" version="0.1.0" exclude="Build,Analyzers" />
+        <dependency id="Vortice.DXGI" version="3.8.3" exclude="Build,Analyzers" />
+        <dependency id="Vortice.Direct2D1" version="3.8.3" exclude="Build,Analyzers" />
+        <dependency id="Vortice.Direct3D11" version="3.8.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

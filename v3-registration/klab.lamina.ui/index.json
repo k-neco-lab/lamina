@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.ui/index.json",
+  "count": 1,
+  "items": [
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.ui/index.json#page/0.1.0/0.1.0",
+      "count": 1,
+      "lower": "0.1.0",
+      "upper": "0.1.0",
+      "items": [
+        {
+          "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.ui/0.1.0.json",
+          "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina.ui/0.1.0/klab.lamina.ui.0.1.0.nupkg",
+          "registration": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.ui/index.json",
+          "catalogEntry": {
+            "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.ui/0.1.0.json",
+            "id": "KLab.Lamina.Ui",
+            "version": "0.1.0",
+            "authors": "K Lab",
+            "description": "Ultra-thin retained-mode Layer 2 UI control tree with native multi-pointer hover, capture, drag, and VR click-slop semantics.",
+            "listed": true,
+            "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina.ui/0.1.0/klab.lamina.ui.0.1.0.nupkg",
+            "tags": [
+              "openvr",
+              "steamvr",
+              "vr",
+              "overlay",
+              "direct2d",
+              "ui",
+              "dotnet"
+            ],
+            "dependencyGroups": [
+              {
+                "targetFramework": "net10.0",
+                "dependencies": [
+                  {
+                    "id": "KLab.Lamina.Abstractions",
+                    "range": "[0.1.0, )"
+                  }
+                ]
+              }
+            ],
+            "licenseExpression": "MIT",
+            "projectUrl": "https://github.com/k-neco-lab/lamina"
+          }
+        }
+      ]
+    }
+  ]
+}

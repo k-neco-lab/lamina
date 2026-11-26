@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.d2d/index.json",
+  "count": 1,
+  "items": [
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.d2d/index.json#page/0.1.0/0.1.0",
+      "count": 1,
+      "lower": "0.1.0",
+      "upper": "0.1.0",
+      "items": [
+        {
+          "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.d2d/0.1.0.json",
+          "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina.d2d/0.1.0/klab.lamina.d2d.0.1.0.nupkg",
+          "registration": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.d2d/index.json",
+          "catalogEntry": {
+            "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.d2d/0.1.0.json",
+            "id": "KLab.Lamina.D2D",
+            "version": "0.1.0",
+            "authors": "K Lab",
+            "description": "Zero-copy Direct2D/DirectWrite GPU rendering backend and double-buffered shared-texture panel host for KLab.Lamina.Ui.",
+            "listed": true,
+            "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina.d2d/0.1.0/klab.lamina.d2d.0.1.0.nupkg",
+            "tags": [
+              "openvr",
+              "steamvr",
+              "vr",
+              "overlay",
+              "direct2d",
+              "ui",
+              "dotnet"
+            ],
+            "dependencyGroups": [
+              {
+                "targetFramework": "net10.0-windows10.0.19041",
+                "dependencies": [
+                  {
+                    "id": "KLab.Lamina.Abstractions",
+                    "range": "[0.1.0, )"
+                  },
+                  {
+                    "id": "KLab.Lamina.Ui",
+                    "range": "[0.1.0, )"
+                  },
+                  {
+                    "id": "Vortice.DXGI",
+                    "range": "[3.8.3, )"
+                  },
+                  {
+                    "id": "Vortice.Direct2D1",
+                    "range": "[3.8.3, )"
+                  },
+                  {
+                    "id": "Vortice.Direct3D11",
+                    "range": "[3.8.3, )"
+                  }
+                ]
+              }
+            ],
+            "licenseExpression": "MIT",
+            "projectUrl": "https://github.com/k-neco-lab/lamina"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "3.0.0",
+  "resources": [
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/",
+      "@type": "PackageBaseAddress/3.0.0",
+      "comment": "Base URL of where NuGet packages are stored (flat container)."
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/",
+      "@type": "RegistrationsBaseUrl/3.6.0",
+      "comment": "Base URL of static NuGet package registrations."
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/",
+      "@type": "RegistrationsBaseUrl/3.0.0-beta",
+      "comment": "Base URL of static NuGet package registrations."
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/",
+      "@type": "RegistrationsBaseUrl",
+      "comment": "Base URL of static NuGet package registrations."
+    }
+  ]
+}

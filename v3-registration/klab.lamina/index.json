@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina/index.json",
+  "count": 1,
+  "items": [
+    {
+      "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina/index.json#page/0.1.0/0.1.0",
+      "count": 1,
+      "lower": "0.1.0",
+      "upper": "0.1.0",
+      "items": [
+        {
+          "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina/0.1.0.json",
+          "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina/0.1.0/klab.lamina.0.1.0.nupkg",
+          "registration": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina/index.json",
+          "catalogEntry": {
+            "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina/0.1.0.json",
+            "id": "KLab.Lamina",
+            "version": "0.1.0",
+            "authors": "K Lab",
+            "description": "UI-engine-agnostic Layer 1 SteamVR overlay runtime, 3D spatial pose math, dual-hand hit arbitration, and action-set grace tracking.",
+            "listed": true,
+            "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina/0.1.0/klab.lamina.0.1.0.nupkg",
+            "tags": [
+              "openvr",
+              "steamvr",
+              "vr",
+              "overlay",
+              "direct2d",
+              "ui",
+              "dotnet"
+            ],
+            "dependencyGroups": [
+              {
+                "targetFramework": "net10.0",
+                "dependencies": [
+                  {
+                    "id": "KLab.Lamina.Abstractions",
+                    "range": "[0.1.0, )"
+                  }
+                ]
+              }
+            ],
+            "licenseExpression": "MIT",
+            "projectUrl": "https://github.com/k-neco-lab/lamina"
+          }
+        }
+      ]
+    }
+  ]
+}

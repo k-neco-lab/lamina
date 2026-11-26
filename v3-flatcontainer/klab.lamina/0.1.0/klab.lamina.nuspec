@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>KLab.Lamina</id>
+    <version>0.1.0</version>
+    <authors>K Lab</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/k-neco-lab/lamina</projectUrl>
+    <description>UI-engine-agnostic Layer 1 SteamVR overlay runtime, 3D spatial pose math, dual-hand hit arbitration, and action-set grace tracking.</description>
+    <copyright>Copyright (c) 2026 K Lab</copyright>
+    <tags>openvr steamvr vr overlay direct2d ui dotnet</tags>
+    <repository type="git" url="https://github.com/k-neco-lab/lamina" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="KLab.Lamina.Abstractions" version="0.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

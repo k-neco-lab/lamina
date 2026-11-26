@@ -1,0 +1,6 @@
+{
+  "@id": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.abstractions/0.1.0.json",
+  "listed": true,
+  "packageContent": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-flatcontainer/klab.lamina.abstractions/0.1.0/klab.lamina.abstractions.0.1.0.nupkg",
+  "registration": "https://raw.githubusercontent.com/k-neco-lab/lamina/feed/v3-registration/klab.lamina.abstractions/index.json"
+}
