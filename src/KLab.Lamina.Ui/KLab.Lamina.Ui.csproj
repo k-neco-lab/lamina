@@ -5,8 +5,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>KLab.Lamina.Ui</PackageId>
-    <Authors>K Lab</Authors>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Ultra-thin retained-mode Layer 2 UI control tree with native multi-pointer hover, capture, drag, and VR click-slop semantics.</Description>
   </PropertyGroup>
 

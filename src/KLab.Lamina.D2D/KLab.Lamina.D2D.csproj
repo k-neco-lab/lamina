@@ -6,8 +6,6 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PackageId>KLab.Lamina.D2D</PackageId>
-    <Authors>K Lab</Authors>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Zero-copy Direct2D/DirectWrite GPU rendering backend and double-buffered shared-texture panel host for KLab.Lamina.Ui.</Description>
   </PropertyGroup>
 

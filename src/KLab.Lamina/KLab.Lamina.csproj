@@ -5,13 +5,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>KLab.Lamina</PackageId>
-    <Authors>K Lab</Authors>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>UI-engine-agnostic Layer 1 SteamVR overlay runtime, 3D spatial pose math, dual-hand hit arbitration, and action-set grace tracking.</Description>
+    <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyOpenVrBindingsToPackage</TargetsForTfmSpecificBuildOutput>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KLab.Lamina.Abstractions\KLab.Lamina.Abstractions.csproj" />
-    <ProjectReference Include="..\..\vendor\openvr\OpenVRBindings.csproj" />
+    <ProjectReference Include="..\..\vendor\openvr\OpenVRBindings.csproj" PrivateAssets="all" />
   </ItemGroup>
+
+  <Target Name="CopyOpenVrBindingsToPackage">
+    <ItemGroup>
+      <BuildOutputInPackage Include="$(OutputPath)OpenVRBindings.dll" />
+    </ItemGroup>
+  </Target>
 </Project>

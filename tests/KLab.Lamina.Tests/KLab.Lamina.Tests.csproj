@@ -6,6 +6,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
     <IsPackable>false</IsPackable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,5 +23,6 @@
     <ProjectReference Include="..\..\src\KLab.Lamina.Ui\KLab.Lamina.Ui.csproj" />
     <ProjectReference Include="..\..\src\KLab.Lamina.D2D\KLab.Lamina.D2D.csproj" />
     <ProjectReference Include="..\..\src\KLab.Lamina\KLab.Lamina.csproj" />
+    <ProjectReference Include="..\..\vendor\openvr\OpenVRBindings.csproj" />
   </ItemGroup>
 </Project>

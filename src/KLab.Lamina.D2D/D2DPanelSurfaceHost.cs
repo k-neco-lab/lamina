@@ -10,7 +10,7 @@ namespace KLab.Lamina.D2D;
 /// <summary>
 /// Double-buffered Direct2D panel surface host implementing both <see cref="IVrOverlayFrameSurface"/> and
 /// <see cref="IVrPanelInputSink"/>.
-/// Guarantees zero GPU draw calls on clean frames and defers <see cref="SetContent"/> and <see cref="Resize"/>
+/// Guarantees zero GPU draw calls on clean frames and defers <see cref="SetContent(Control)"/> and <see cref="Resize"/>
 /// while any pointer holds an active capture on <see cref="UiRoot"/> so periodic UI refreshes never interrupt
 /// in-flight VR clicks or drags.
 /// </summary>

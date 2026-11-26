@@ -23,16 +23,46 @@ KLab.Lamina.D2D ──► KLab.Lamina.Ui ──► KLab.Lamina.Abstractions ◄�
 
 ## Quickstart
 
-### 1. Build & Test
+### 1. Consume via NuGet
+
+Lamina publishes prebuilt packages to a static NuGet V3 feed on the `feed` branch of this repository. Add a `NuGet.config` to your solution:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+    <add key="klab-lamina" value="https://raw.githubusercontent.com/k-neco-lab/lamina/feed/index.json" />
+  </packageSources>
+</configuration>
+```
+
+Then reference the packages you need:
+
+```xml
+<ItemGroup>
+  <PackageReference Include="KLab.Lamina.Abstractions" Version="0.1.0" />
+  <PackageReference Include="KLab.Lamina" Version="0.1.0" />
+</ItemGroup>
+```
+
+### 2. Build, Test & Publish Locally
 
 Requires the .NET 10 SDK on Windows (Direct3D 11 / Direct2D GPU tests run directly on the local adapter or WARP):
 
 ```bash
 dotnet build Lamina.sln -c Release
 dotnet test Lamina.sln -c Release
+dotnet pack Lamina.sln -c Release -o artifacts/nupkgs
 ```
 
-### 2. Render a Multi-Pointer Direct2D Panel into SteamVR
+To update the static NuGet V3 `feed` branch locally (no GitHub Actions required):
+
+```bash
+python3 scripts/publish-feed.py --nupkgs artifacts/nupkgs --branch feed --push
+```
+
+### 3. Render a Multi-Pointer Direct2D Panel into SteamVR
 
 ```csharp
 using KLab.Lamina;
