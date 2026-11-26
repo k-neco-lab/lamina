@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PackageId>KLab.Lamina.Abstractions</PackageId>
+    <Authors>K Lab</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>UI-engine-agnostic Layer 1 spatial overlay surface and multi-pointer input abstractions for SteamVR overlays.</Description>
+  </PropertyGroup>
+</Project>

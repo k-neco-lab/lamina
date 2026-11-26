@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>KLab.Lamina.D2D</PackageId>
+    <Authors>K Lab</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Zero-copy Direct2D/DirectWrite GPU rendering backend and double-buffered shared-texture panel host for KLab.Lamina.Ui.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vortice.Direct3D11" Version="3.8.3" />
+    <PackageReference Include="Vortice.DXGI" Version="3.8.3" />
+    <PackageReference Include="Vortice.Direct2D1" Version="3.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KLab.Lamina.Abstractions\KLab.Lamina.Abstractions.csproj" />
+    <ProjectReference Include="..\KLab.Lamina.Ui\KLab.Lamina.Ui.csproj" />
+  </ItemGroup>
+</Project>
